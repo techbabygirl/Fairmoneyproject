@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ /* NAVBAR  */
+ .container{
+    top: -2.5rem;
+  }
+  #navbar{
+    color: #EBF1FD;
+    margin-top: -2rem;
+  }
+  nav ul li{
+    color: black;
+  }
+  .navul{
+    gap: 0.5rem;
+  }
+  #navbuttom{
+  border-radius: none;
+  }
+  .divid{
+      display: none;
+      position: absolute;
+        }
+  
+      ul :hover .divid{
+          display: block;
+        }
+  .fairLock{
+    display: none;
+  }
+  #navbar ul li :hover .fairLock {
+  display: block;
+  position: relative;
+  left:10rem;
+  top: -2rem;
+  }
+.newsandupdate h1{
+/* margin: 5rem; */
+margin-left: 8rem;
+
+}
+.buttonupdate{
+  margin: 7rem;
+}
+.buttonupdate :nth-child(1){
+  height: 3rem;
+  width: 6rem; 
+  font-size: 1rem;
+  color: green;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.buttonupdate :nth-child(2){
+ height: 3rem;
+  width: 10rem; 
+  font-size: 1rem;
+  color: green;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.buttonupdate :nth-child(3){
+ height: 3rem;
+  width: 10rem; 
+  font-size: 1rem;
+  color: green;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.buttonupdate :nth-child(4){
+  height: 3rem;
+  width: 10rem; 
+  font-size: 1rem;
+  color: green;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.cardone{
+  /* height: 40vh; */
+}
+#card1{
+  /* border: thick solid yellow;
+height: 20vh;
+width: 10rem; */
+
+}
+
+
+
+
+
+
+
+
+
+  /* CONTACT FOOTER */
+#Contactfooter{
+    background-color: blue;
+    margin-top: 6rem;
+    overflow: hidden;;
+}
+#Footercontact{
+    padding-left: 10rem; 
+    line-height: 2rem;
+}
+#contactUL1 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+#contactUL2{
+    line-height: 2rem;
+}
+#contactUL2 a{
+  text-decoration: none;
+  color: white;
+}
+#contactUL3{
+    line-height: 2rem;
+    padding-right:40rem; 
+}
+#contactUL3 a{
+  text-decoration: none;
+  color: white;
+}
+.FooterUl{
+    margin-top: 3rem;
+    padding-left: 8rem; 
+    text-decoration: none;  
+}
+.FooterU2 {
+  margin-top: -5rem;
+}
+.FooterU2 a{
+  text-decoration:none;
+  padding: 1rem;
+  color: white;
+}
+.FooterU2 i{
+  padding: 1rem;
+  color: white;
+  }
+
+  @media(max-width:1440px){
+    .navbar-toggler{
+      display: none;
+    }
+  }
+  @media(max-width:990px){
+    .navbar-toggler{
+      display: block;
+    }
+  #navul{
+    display: none;
+  }
+  }
+  @media(max-width:768px){
+    .navbar-toggler{
+      display: block;
+    }
+   #navul{
+    display: none;
+  }
+  #Phone{
+    display: none;
+  }
+  }
+
+
+
+

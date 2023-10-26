@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fairmoney</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/P1CSS/Fairmoney.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+<body>
+   
+    <!-- NAV BAR -->
+    <!-- SECTION 1 -->
+  
+  <nav class="navbar  text-dark " id="navbar">
+    <div class="container">
+      <!-- LOGO -->
+      <a class="navbar-brand" href=""/P1HTML/Fairmoney.html">
+            <img  src="/P1img/fairmoney-removebg-preview.png" alt="fairMoney" height="150vh">
+      </a>
+      <button id="navbuttom"  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavdropdown" aria-controls="navbarNavdropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+              <!-- UL -->
+              <!-- <div> -->
+      <ul id="navul"  class="nav justify-content-end " >
+        <li class="nav-item">
+          <a class="nav-link active text-dark" aria-current="page" href="/P1HTML/ourcompany.html">Our Company</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark"  href="#">Product</a>
+                <!-- DROPDOWN SAVING -->
+          <div>
+            <div class="divid" >
+              <div class="dropdown1">
+               <div><a class="nav-link text-dark" href=""> <img src="/P1img/savingicon.svg" alt=""><h4>Saving</h4></a>
+                  <div>
+                    <div style="display: none;">
+                      <div><a class="nav-link text-dark" href=""><h4>FairSave</h4></a></div>
+                      <div><a class="nav-link text-dark" href=""><h4>FairLock</h4></a></div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+                          <!-- UL CONTINUES  </div> -->
+              <div> <a  class="nav-link text-dark"href=""><h4>Lending</h4></a>
+                    <!-- LENDING DROPDOWN -->
+               <div>
+                  <div style="display: none;">
+                      <div><a href=""><h4>personal Loan</h4></a></div>
+                      <div><a href=""><h4>Business Loan</h4></a></div>
+                  </div>
+               </div>
+              </div>
+                      <!--  UL CONTINUES -->
+                <div> <a class="nav-link text-dark" href=""><h4>Bill Payment</h4></a></div>
+                <div><a class="nav-link text-dark" href=""><h4>Bank Account</h4></a></div>
+                <div> <a class="nav-link text-dark" href=""><h4>Cards</h4></a></div>
+                <div><a class="nav-link text-dark" href=""><h4>POS Service</h4></a></div>
+                <div><a class="nav-link text-dark" href=""><h4>fixed deposit</h4></a></div>
+            </div>
+         </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Calculator</a>
+          <div class="divid">
+            <!-- <div class="ddd"> -->
+              <ul>
+                <!-- <div class="menu"> -->
+                <li ><a class="nav-link text-dark"  href=""><h4 class="SC">Saving Calculator</h4></a>
+                  <div class="fairLock">
+                   <ul >
+                     <li><a class="nav-link text-dark" href=""><h4>FairSave</h4></a></li>
+                     <li><a class="nav-link text-dark" href=""><h4>fairLock</h4></a></li>
+                    </ul>
+                      <!-- </div> -->
+                  </div>
+                </li>
+                <li><a class="nav-link text-dark" href=""><h4>Loan Calculator</h4> </a></li>
+              </ul>
+            <!-- </div> -->
+          </div>
+        </li>
+          <!-- UL CONT -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/P1HTML/newsandupdate.html" >News & Updates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/P1HTML/faq.html">FAQ</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-dark" href="/P1HTML/contactus.html">Contact Us</a>
+        </li>
+        <!-- NiGERIA DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button"   data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="/P1img/nigeriaflag-removebg-preview.png" alt="" height="20rem">
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> <img src="/P1img/nigeriaflag-removebg-preview.png" alt="" height="20">Nigeria</a></li>
+            <li><a class="dropdown-item nav-link text-dark href="#"><img src="/P1img/Yellow,_white,_green_flag.svg" alt="" height="20rem">India(India)</a></li>
+          </ul>
+        </li>
+      </ul>
+        <!-- </div> -->
+    </div>
+  </nav>
+<!-- NAV BAR  ENDS -->
+
+
+ <!-- SECTION 2 -->
+
+<div class="container-fliud bg-prima" id="covercontainer">
+  <div class="container bg-primar rounded" id="section1">
+    <div  class="text-center fs-5 " id="subsection1">
+      <h1 class="fw-bold pb-4">
+        We are building the mobile <br>bank for the next 2 Billion.
+      </h1 >
+      <p class=" pb-3">
+        FairMoney Microfinance Bank is the number 1 most downloaded <br>  fintech app in Nigeria. With over 10,000 daily loan disbursements, <br>and over 5 million users enjoying banking, savings, and investment <br>services, FairMoney helps the average Nigerian access finance <br> tools to take control of both their life and their finances.
+     </p>
+      <button type="button" class="btn btn-lg btn-success fw-bold "  > <i class="fa-brands fa-google-play"></i>Download FairMoney</button>
+      <div class="sectionimg1" id="Phone"><a href=""> <img src="/P1img/right phone FM.png" alt="" height="500vh"></a></div>
+      <div class="sectionimg2" id="Phone"><a href=""> <img src="/P1img/left phone FA.webp" alt="" height="400vh"></a></div>
+      </div>
+ </div>
+</div>
+
+<div class="container text-center">
+  <div class="row" id="nigeria">
+    <div class="col col-md-3" id="licensed">
+      <p >LICENSED BY</p>
+      <div class="licenseicon">
+        <div>
+          <img class="icon1" src="/P1img/hero-license-icon.svg"  alt="" height="40rem" width="45rem" >
+        </div>
+        <div> 
+            <img src="/P1img/Central_Bank_of_Nigeria_logo.svg.png" alt="" height="40rem"> Central Bank of Nigeria
+        </div>
+         
+      </div>
+    </div>
+
+    <div class="col col-md-4"  id="deposit" >
+      <p>DEPOSITS INSURED BY</p>
+      <img class="icon2" src="/P1img/hero-insurance-icon.svg" alt="" height="40rem" width="45rem">
+      <img src="/P1img/ndic logo.png" alt=""height="40rem">
+    </div>
+
+    <div class="col col-md-5" id="scan">
+      <div><img src="/P1img/scanlogo.png" alt="" height="45rem"> </div>
+        <div>Scan the QR code with your phone camera <br>to download the fair money app</div></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- SECTION 3 -->
+
+<div class="container-fliud" style="background-color: rgb(251,251,253)" id="section3">
+  <div class="container"  >
+
+    <div class="row" style="gap: 1rem;"   >
+      <div class="col col-md-5" style="background-color: white; border-radius: 1rem; padding-top: 1rem;  ">
+        <h1 >Trusted by millions <br> of users in Nigeria</h1>
+        <p style="font-size: large; padding-top:1rem;">A customer base of over 5 million is a <br> testament to the growing adoption of <br> FairMoney's fintech solutions among <br> Nigerians.</p>
+      </div>
+
+      <div class="col col-md-4" style=" width: 19rem; height: 20rem;  border-radius: 2rem;  background-color: rgb(244,241,248); padding: 1rem;   ">
+        <h4 style="padding-top: 0.4rem;">APP DOWNLOADS</h4>
+        <div style="display: flex; ">
+          <div>  <h1 style="line-height: 2rem; padding-top: 8rem;" > <span style="font-size: 5rem;">10</span> <br> <span style="font-size: large;"> MILLION+</span></h1></div>
+          <div style="padding: 4.5rem;">  <img src="/P1img/apps-download__purple.svg" alt="" ></div>
+        </div>
+     </div>
+      <div class="col col-md-3" style="  width: 19rem; height: 20rem; border-radius: 2rem; background-color: rgb(241,247,246); ">
+        <img  src="/P1img/daily-loans__green.svg" alt="" height="107rem">
+        <h1 style="line-height: 2.5rem; padding-left: 1rem; padding-top: 3rem;   "> <span style="font-size: large;">OVER </span><br>  <span style="font-size: 3.5rem;">10,000</span> <br> <span style="font-size: large;">LOAN PER DAY</span></h1>
+      </div>
+    </div>
+
+ </div>
+</div>
+
+
+
+<div class="container-fliud">
+  <div class="container">
+
+    <div class="row" style="gap: 1rem;">
+
+      <div class="col col col-md-5" style="background-color: rgb(241,247,246); border-radius: 2rem; ">
+        <img style="padding-left: 4rem; position: absolute;" src="/P1img/daily-loans__green.svg" alt="" width="460rem">
+        <div style="position: relative; padding-left:1rem; padding-top: 1.5rem;">
+          <p style="font-size: 1rem;">ALMOST</p>
+          <h1 style="font-size: 5rem;">₦3.36 Billion</h1>
+          <p>SAVED WITH FAIRMONEY</p>
+        </div>
+       
+      </div>
+
+      <div class="col col col-md-4" style="background-color: rgb(251,243,238); width: 19rem; height: 20rem; border-radius: 2rem;">
+          
+        <p style="font-size: 1.2rem; padding:1rem">LOANS <br> PROCESSED IN</p>
+        <img style="padding-right: 9rem;"  src="/P1img/loans-proccessed__orange.svg" alt="" height="85rem" >
+        <h1><span style="font-size:6rem;">5</span> <strong>MINITES</strong> </h1>
+         
+      </div>
+
+      <div class="col col col-md-3" style="background-color: rgb(241,244,252); width: 19rem; height: 20rem; border-radius: 2rem;">
+
+       <img style="padding-left: 3rem;" src="/P1img/loans-proccessed__orange.svg" alt="" height="70rem" >
+       <p>OVER <br>
+       <span style="font-size: 3rem;">210,000</span> <br>
+        MONTHLY CARD  TRANSACTIONS</p>
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!-- carousel -->
+
+<div style="padding-top: 5rem; margin-top: 5rem; background-color: rgb(235,241,253);">
+  <h1 class="couroselheading" style="text-align: center; font-weight: 50rem;"> 
+   <strong> Products that meet <br>
+    all your life goals</strong> 
+  </h1>
+
+
+<div id="carouselExampleControls" class=" container-fliud carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner"  >
+    <div class="carousel-item active">
+      <div class="row"  id="carouselrow" >
+        <div class="col-md-4" id="corousel1">
+         <h2>Personal Loans</h2>
+          <p>You can now access quick loans of up to ₦3,000,000 in 5 mins, no collaterals & easy repayment terms!</p>
+          <button>Learn More</button>
+          <img src="/P1img/courosel1.png" alt="" height="520">
+      </div>
+        <div class="col-md-4"   id="corousel1">
+          <h1>Business Loans</h1>
+          <p>Take your business to the next level with up to ₦5,000,000 FairMoney SME loans.</p>
+          <button style="background-color: rgb(23,29,50);">Learn More</button>
+          <img src="/P1img/courosel2.png" alt="" height="520">
+       </div>
+       <div class="col-md-4"  id="corousel1">
+         <h1>FairLock</h1>
+          <p>Achieve your goals faster with FairLock (Fixed term deposits) & earn up to 24% interest P.A.</p>
+          <button style="background-color: rgb(51,110,235);">Learn More</button>
+          <img src="/P1img/cou.png" alt="" height="520">
+       </div>
+     </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row" id="carouselrow">
+        <div class="col-md-4"  id="corousel1">
+          <h1>FairSave</h1>
+          <p> Don't keep your money idle. Earn 14% interest P.A. paid daily.</p>
+          <button style="rgb(55,164,119)">Learn More</button>
+          <img src="/P1img/left phone FA.webp" alt="" height="520">
+       </div>
+        <div class="col-md-4" id="corousel1">
+          <h1>Cards</h1>
+          <p>Earn 2% cash back whenever you use your FairMoney ATM card</p>
+          <button style="rgb(23,29,50)">Learn More</button>
+          <img src="/P1img/courosel5.png" alt="" height="520">
+       </div>
+       <div class="col-md-4" id="corousel1">
+          <h1>Bank Account</h1>
+          <p>FairMoney offers you 30 free transfers monthly, discounts on airtime/data, no charges on bills, and much more!</p>
+          <button style="rgb(51,110,235)">Learn More</button>
+          <img src="/P1img/courosel6.png" alt="" height="520">
+       </div>
+     </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row" id="carouselrow" >
+        <div class="col-md-4" id="corousel1">
+          <h1>Bill Payment</h1>
+          <p>Pay Your Bills with Ease (Enjoy 3% discount and zero transaction fees)</p>
+          <button >Learn More</button>
+          <img src="/P1img/courosel7.png" alt="" height="520">
+    
+        </div>
+        <div class="col-md-4" id="corousel1">
+          <h1>POS Service</h1>
+          <p>Launch your business on the Payforce network, start earning extra income and accepting payments from anywhere.</p>
+          <button>Learn More</button>
+          <img src="/P1img/courosel8.png" alt="" height="520">
+    
+        </div>
+       <div class="col-md-4" id="corousel1">
+          <h1>Business Loans</h1>
+          <p>Take your business to the next level with up to ₦5,000,000 FairMoney SME loans.</p>
+          <button>Learn More</button>
+          <img src="/P1img/courosel1.png" alt="" height="520">
+       </div>
+     </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<!-- Explore Reward -->
+<div class="container-fliud" id="main">
+
+ <div class="row container" id="Explore">
+   <div class="col col-md-8">
+      <p> Check out FairMoney’s Referral Program for exciting rewards </p>
+   </div>
+    <div class="col col-md-4">
+      <a href=""><button >Explore rewards</button></a> 
+    </div>
+  </div>
+
+  <div class="ourinvestors container">
+    <h3>OUR INVESTORS</h3>
+  </div>
+
+    <div id="brandslogo1" class="container">
+      <div><a href=""><img src="/P1img/DST_Global_d6b41cc69c.webp" alt="" height="50rem"></a></div>
+      <div><a href=""><img src="/P1img/Flourish_3dc21bde07.webp" alt="" height="50rem"></a></div>
+      <div><a href=""><img src="/P1img/newfund_3fa515a414.webp" alt="" height="50rem"></a></div>
+      <div><a href=""><img src="/P1img/Speedinvest_042cd3aad7.webp" alt="" height="50rem"></a></div>
+      <div><a href=""><img src="/P1img/tigerglobal.webp" alt="" height="50rem"></a></div>
+    </div>
+
+</div>
+<!-- TESTIMONIAL -->
+
+<div class=" Testimonials">
+  
+  <h1>Testimonials</h1>
+
+  <div  class="flexsession">
+    
+    <div class=" sectionTesti">
+
+      <div class="flexrow1">
+         <div><a href="">Omolara <br> Gbademosi</a></div>
+         <div><img src="/P1img/arrow icon.svg" alt=""></div>
+       </div>
+   
+       <div class="flexrow1">
+         <div><a href="">Cheta Odigbo</a></div>
+         <div><img src="/P1img/arrow icon.svg" alt=""></div>
+       </div>
+   
+       <div class="flexrow1">
+         <div><a href="">Sarah Ladipo</a></div>
+         <div><img src="/P1img/arrow icon.svg" alt=""></div>
+       </div>
+   
+       <div class="flexrow1">
+         <div><a href="">Udeme Udoha</a></div>
+         <div><img src="/P1img/arrow icon.svg" alt=""></div>
+       </div>
+   
+     </div>
+   
+       
+   
+         <div class="flexrow2">
+           <h3>
+              Omolara Gbademosi <br>
+              Nurse
+            </h3>
+         </div>
+   
+        <div class="flexrow2">
+
+         <p>
+            daughter was to go back to school, the <br> money I was expecting wasn't <br> forthcoming 
+            and my daughter is about to  <br>graduate. It’s FairMoney loans that  <br>helped us. 
+            I started a new business in  <br>school. It’s been going well, but I needed <br> some money
+            to buy things for this <br> season. Can’t ask my parents because<br> things are tight. 
+            I eventually used  <br>FairMoney loans, and my business has <br> been growing.
+          </p>
+        </div>
+   
+       
+       
+     </div>
+
+
+
+
+  </div>
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

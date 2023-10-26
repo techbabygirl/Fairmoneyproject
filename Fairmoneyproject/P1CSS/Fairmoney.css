@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;   
+}
+.container{
+ top: -2.5rem;
+}
+#navbar{
+  color: #EBF1FD;
+  margin-top: -2rem;  
+}
+nav{
+
+
+}
+nav ul li{
+  color: black;
+}
+
+.navul{
+  gap: 0.5rem;
+}
+
+#navbuttom{
+border-radius: none;
+
+}
+.divid{
+    display: none;
+    position: absolute;
+    background-color: white;
+      }
+
+    ul :hover .divid{
+        display: block;
+      }
+.fairLock{
+  display: none;
+}
+#navbar ul li :hover .fairLock {
+display: block;
+position: relative;
+left:10rem;
+top: -2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+/* MEDIA QUERY */
+@media(max-width:1440px){
+  .navbar-toggler{
+    display: none;
+  }
+}
+@media(max-width:990px){
+  .navbar-toggler{
+    display: block;
+  }
+#navul{
+  display: none;
+}
+}
+@media(max-width:768px){
+  .navbar-toggler{
+    display: block;
+  }
+ #navul{
+  display: none;
+}
+#Phone{
+  display: none;
+}
+}
+
+/* SECTION 2  */
+#covercontainer{
+  margin-top: -1rem;
+}
+ #section1{
+  height: 140vh;
+  overflow: auto;
+  
+}
+#subsection1{
+  background-color: #EBF1FD;
+  border-radius: 3rem;
+   height: 100vh;
+  padding-top: 5rem;
+  line-height: 30px;
+ 
+}
+.sectionimg1{
+margin-top: -27rem;
+margin-left: 58rem;
+overflow: hidden;
+}
+.sectionimg2{
+ margin-top: -23rem;
+  margin-right: 78rem;
+  transform:rotate(40deg);
+  
+} 
+#nigeria{
+ margin-top: -16rem;
+  padding: 1rem;
+}
+.licensed{
+  font-size: x-small;
+  line-height: 2rem;
+  padding-top: 2rem;
+}
+#licensed p{
+margin-right: 7rem;
+padding-top: 2rem;
+font-size: x-small;
+}
+.licenseicon{
+  font-size: x-small;
+  justify-content: center;
+  gap: 0.5rem;
+  display: flex;
+  }
+.icon1{
+    background-color: gray;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+.icon2{
+    background-color: gray;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+ #deposit{
+    font-size: x-small;
+    padding-top: 2rem;
+  }
+  #scan{
+    display: flex; 
+    font-size: x-small; 
+    padding-left: 8rem; 
+    gap: 1rem; 
+    text-align: left; 
+    border: thick solid gray;  
+    width: 25rem; 
+    padding-top: 2rem;
+    
+  }
+ #section3{
+   padding: 4rem;
+
+  }
+
+  /* corousel */
+  #carouselExampleControls{
+
+    height: 120vh;
+  }
+  #carouselrow{
+    padding: 2rem;
+     gap: 1rem;
+     background-color: rgb(235,241,253);
+  }
+  #corousel1{
+    overflow: hidden;
+    background-color: yellow;
+    height: 30rem;
+    border-radius: 3rem;
+    padding: 3rem;
+    width: 24.5rem;
+    background-color: white;
+  }
+  #corousel1 h2{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #corousel1 p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+  #corousel1 button{
+    height: 3rem;
+    border-radius: 0.5rem;
+    width: 8rem;
+    background-color: green;
+  }
+ #corousel1 img{
+   transform: rotate(-19deg);
+   margin-left: 10rem;
+   padding-bottom: 4rem;
+  }
+
+
+/* Explore */
+
+#main{
+  /* position: absolute; */
+  background-color: rgb( 225 , 225, 225);
+  /* margin-top: 10rem; */
+  width: 78.9rem;
+}
+
+  #Explore{
+    height: 8rem;
+    position: relative;
+    margin-left: 4rem;
+    border: thick solid  rgb(246,249,255) ;
+    background-color: rgb(246,249,255);
+    border-radius: 1.5rem;
+    margin-top: -1.5rem;
+    
+    
+  }
+
+  #Explore p{
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+  #Explore button{
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(55,164,119);
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+
+  }
+
+  .ourinvestors{
+    width: 65rem;
+    border: thin solid gray;
+    text-align: center;
+    padding: 2rem;
+    margin-top: -3rem;
+    border-bottom: none;
+  }
+  .ourinvestors h3{
+  
+  }
+
+#brandslogo{
+  border: thick solid black;
+  
+}
+#brandslogo1{
+  border: thin solid gray;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  gap: 2rem;
+  margin-top: -rem;
+  height: 10rem;
+  width: 70rem;
+  border-radius: 2rem;
+}
+
+/* Testimonial */
+
+.Testimonials{
+  padding: 4rem;
+}
+.Testimonials h1{
+  text-align: center;
+  /* padding: 3rem; */
+}
+
+.flexsession{
+  display: flex;
+  gap: 5rem;
+  padding: 4rem;
+}
+
+.sectionTesti{
+
+
+}
+
+.flexrow1{
+  padding: 1rem;
+display: flex;
+height: 5rem;
+width: 15rem;
+gap: 2rem;
+border-radius: 1rem;
+border: thick solid yellow;
+}
+
+.Sectiontest2{
+  display: flex;
+}
+.flexrow2 h3{
+  /* padding-left: 4rem; */
+}
+
+.flexrow2{
+  overflow: hidden;
+  
+}
+
+
+
+.flexrow2 p{
+
+  width: 38rem;
+  font-size: large;
+  
+  overscroll-behavior-x: sv;
+
+
+  }
+
+
+
+
+
+  
+
+/* MEDIA QUERY */
